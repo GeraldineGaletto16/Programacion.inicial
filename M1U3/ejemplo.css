@@ -1,0 +1,29 @@
+h2{
+    color: aqua; background-color:pink; text-transform: uppercase;font-style:italic;
+}
+h1{
+    color: orangered;text-align: center;background-color: burlywood;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: indianred;background-color: pink;
+    line-height: 40px;/*espacio entre renglones*/
+
+
+}
+.destacados{
+    color: blueviolet;
+}
+#caja{
+    
+    background-color:darkseagreen;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid orchid;
+    color: darkseagreen;
+    text-align: center;
+    margin-left: 400px;
+
+}
+#caja p{background-color: darkseagreen;color: whitesmoke;line-height: 25px;font-size: 25px;}
+#caja h2{color: black;background-color: darkseagreen;font-family: Georgia, 'Times New Roman', Times, serif;}
