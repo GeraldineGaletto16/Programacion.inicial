@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        distancia=parseInt(prompt('Ingrese distancia a recorrer en metros:','')) 
+        {
+            if(distancia>=0 && distancia<=1000)
+            document.write('ir a pie')
+
+        }   if(distancia>=1001 && distancia<=10000) 
+        {
+            document.write('ir en bicicleta')
+        }   if(distancia >=10001 && distancia <=30000)
+        {
+            document.write('ir en colectivo')
+        }   if(distancia >=30001 && distancia <=100000)
+        {
+            document.write('ir en auto')
+        }   if(distancia >=100001)
+        {
+            document.write('ir en avion')
+        }   if ((distancia <0))
+        {
+            document.write('Ingrese un valor numerico positivo')
+        }   else if(Number.isNaN(distancia))
+        {
+            document.write('ingrese un valor numerico')
+        }
+        
+        
+
+    </script>
+</body>
+</html>
