@@ -1,0 +1,11 @@
+.caja{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border: 4px solid;
+    border-color: rgb(139, 137, 137);
+}
+body{
+    background-color:rgb(154, 244, 212)
+}
+
